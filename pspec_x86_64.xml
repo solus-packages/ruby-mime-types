@@ -1,0 +1,68 @@
+<PISI>
+    <Source>
+        <Name>ruby-mime-types</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - mime-types</Summary>
+        <Description xml:lang="en">The mime-types library provides a library and registry for information about MIME content type definitions. It can be used to determine defined filename extensions for MIME types, or to use filename extensions to look up the likely MIME type definitions.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-mime-types</Name>
+        <Summary xml:lang="en">RubyGem - mime-types</Summary>
+        <Description xml:lang="en">The mime-types library provides a library and registry for information about MIME content type definitions. It can be used to determine defined filename extensions for MIME types, or to use filename extensions to look up the likely MIME type definitions.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/Code-of-Conduct.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/Contributing.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/History.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/Licence.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/Manifest.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/README.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime-types.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/type.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/type/columnar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/_columnar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/cache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/columnar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/container.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/deprecations.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/full.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/loader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/logger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/lib/mime/types/registry.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/bad-fixtures/malformed</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/fixture/json.json</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/fixture/old-data</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/fixture/yaml.yaml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/minitest_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/test_mime_type.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/test_mime_types.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/test_mime_types_cache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/test_mime_types_class.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/test_mime_types_lazy.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/mime-types-3.1/test/test_mime_types_loader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/mime-types-3.1.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>3.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
