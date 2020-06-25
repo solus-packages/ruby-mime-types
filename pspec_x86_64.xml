@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-mime-types</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,50 +19,47 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/Code-of-Conduct.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/Contributing.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/History.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/Licence.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/Manifest.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/README.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime-types.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/type.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/type/columnar.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/_columnar.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/cache.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/columnar.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/container.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/deprecations.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/full.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/loader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/logger.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/lib/mime/types/registry.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/bad-fixtures/malformed</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/fixture/json.json</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/fixture/old-data</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/fixture/yaml.yaml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/minitest_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/test_mime_type.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/test_mime_types.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/test_mime_types_cache.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/test_mime_types_class.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/test_mime_types_lazy.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mime-types-3.1/test/test_mime_types_loader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/mime-types-3.1.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/Code-of-Conduct.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/Contributing.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/History.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/Licence.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/Manifest.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/README.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime-types.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/type.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/type/columnar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/_columnar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/cache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/columnar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/container.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/deprecations.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/full.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/loader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/logger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/lib/mime/types/registry.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/bad-fixtures/malformed</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/fixture/json.json</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/fixture/old-data</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/fixture/yaml.yaml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/minitest_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/test_mime_type.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/test_mime_types.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/test_mime_types_cache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/test_mime_types_class.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/test_mime_types_lazy.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mime-types-3.3.1/test/test_mime_types_loader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/mime-types-3.3.1.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
-            <Version>3.1</Version>
+        <Update release="4">
+            <Date>2020-06-26</Date>
+            <Version>3.3.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

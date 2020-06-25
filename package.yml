@@ -1,16 +1,17 @@
 name       : ruby-mime-types
-version    : 3.1
-release    : 3
+version    : 3.3.1
+release    : 4
 source     :
-    - https://rubygems.org/downloads/mime-types-3.1.gem : 75949321c3f55e6618d0596016059841c26168342ec1ee4e641053bb66fa0701
+    - https://rubygems.org/downloads/mime-types-3.3.1.gem : 708f737e28ceef48b9a1bc041aa9eec46fa36eb36acb95e6b64a9889131541fe
 license    : MIT
 component  : programming.ruby
 summary    : RubyGem - mime-types
 description: |
     The mime-types library provides a library and registry for information about MIME content type definitions. It can be used to determine defined filename extensions for MIME types, or to use filename extensions to look up the likely MIME type definitions.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby-mime-types-data
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
